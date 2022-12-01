@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Obolo's Product Registration Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="prf.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <fieldset>
+                    <h1>Product Registration Form</h1>
+                    <p>Register your product by filling in the product registration form below.</p>
+                </fieldset>
+                <fieldset>
+                    <div class="cont-1">
+                        <div class="inner-div">
+                            <label class="labels" for="lastname">Firstname <input class="inputs" id="lastname" type="text" name="personaldetails" value="lastname" placeholder="lastname" required/></label>
+                        </div>
+                        <div class="inner-div">
+                            <label class="labels"  for="firstname">Lastname <input class="inputs" id="firstname" type="text" name="personaldetails" value="firstname" placeholder="firstname" required/></label>
+                        </div>
+                    </div>
+                    <div class="cont-1">
+                        <div class="inner-div">
+                            <label class="labels" for="email">E-mail <input class="inputs" id="email" type="email" name="personaldetails" value="email" required/></label>
+                        </div>
+                        <div class="inner-div">
+                            <label class="labels" for="phone-number">Phone-Number<input class="inputs" id="phone-number" type="number" name="personaldetails" value="phone-number" minlength="11" maxlength="14" placeholder="### ### ####" required/></label>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="cont-1">
+                        <div class="inner-div">
+                            <label class="labels" for="address">Address<input class="inputs" id="address" type="text" name="contact-info" value="address" placeholder="street-address" size="100" required/></label>
+                        </div>
+                    </div>
+                    <div class="cont-1">
+                        <div class="inner-div">
+                            <label class="labels" for="city">City<input class="inputs" id="city" type="text" name="contact-info" value="city" placeholder="city" required/></label>
+                        </div>
+                        <div class="inner-div">
+                            <label for="state">State
+                                <select id="state" name="state-name">
+                                    <option value="0">state</option>
+                                    <option value="1">Abia</option>
+                                    <option value="2">Adamawa</option>
+                                    <option value="3">Akwa-Ibom</option>
+                                    <option value="4">Anambra</option>
+                                    <option value="5">Bauchi</option>
+                                    <option value="6">Bayelsa</option>
+                                    <option value="7">Benue</option>
+                                    <option value="8">Borno</option>
+                                    <option value="9">Cross-river</option>
+                                    <option value="10">Delta</option>
+                                    <option value="11">Eboniyi</option>
+                                    <option value="12">Edo</option>
+                                    <option value="13">Ekiti</option>
+                                    <option value="14">Enugu</option>
+                                    <option value="15">Gombe</option>
+                                    <option value="16">Imp</option>
+                                    <option value="17">Jigawa</option>
+                                    <option value="18">Kaduna</option>
+                                    <option value="19">Kano</option>
+                                    <option value="20">Katsina</option>
+                                    <option value="21">Kebbi</option>
+                                    <option value="22">Kogi</option>
+                                    <option value="23">Kwara</option>
+                                    <option value="24">Lagos</option>
+                                    <option value="25">Nassarawa</option>
+                                    <option value="26">Niger</option>
+                                    <option value="27">Ogun</option>
+                                    <option value="28">Ondo</option>
+                                    <option value="29">Osun</option>
+                                    <option value="30">Oyo</option>
+                                    <option value="31">Plateau</option>
+                                    <option value="32">Rivers</option>
+                                    <option value="33">Sokoto</option>
+                                    <option value="34">Taraba</option>
+                                    <option value="35">Yobe</option>
+                                    <option value="36">Zamfara</option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="cont-1">
+                        <div class="inner-div">
+                            <label class="labels" for="postal/zip-code">Postal/Zipcode<input class="inputs" id="postal/zip-code" type="number" name="contact-info" value="postal/zipcode" minlength="6" maxlength="6" placeholder="postal / zip code" required/></label>
+                        </div>
+                        <div class="inner-div">
+                            <label class="labels" for="country">Country<input class="inputs" id="country" type="text" name="contact-info" value="country" placeholder="country" required/></label>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <h2>PRODUCT INFORMATION</h2>
+                </fieldset>
+                <fieldset>
+                    <div class="cont-1">
+                        <div class="inner-div">
+                            <label class="labels" for="product-name">Product Name<input class="products" id="product-name" type="text" name="product-infos" value="product-name" required/></label>
+                            <p>e.g Laptop</p>
+                        </div>
+                        <div class="inner-div">
+                            <label class="labels" for="product-brand">Product Brand & Model<input class="products" id="product-brand" type="text" name="product-infos" value="product-brand-model" required/></label>
+                            <p>Acer Aspire Nitro</p>
+                        </div>
+                    </div>
+                    <div class="cont-1">
+                        <div class="inner-div">
+                            <label class="labels" for="product-model-id">Product Model ID<input class="products" id="product-model-id" type="text" name="product-infos" value="product-model-id" required/></label>
+                            <p>VN7793G750Z</p>
+                        </div>
+                        <div class="inner-div">
+                            <label class="labels" for="product-year">Product Fabrication Year<input class="products" id="product-year" type="number" min="2000" max="2022" name="product-infos" value="product-farbrication-year" required/></label>
+                            <p>e.g 2012</p>
+                        </div>
+                    </div>
+                    <div class="cont-1">
+                        <div class="inner-div">
+                            <label class="labels" for="purchase-date">Purchase Date<input class="products" id="purchase-date" type="date" name="product-infos" value="purchase-date" required/></label>
+                            <p>e.g 12/04/2017</p>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <input class="submit" type="submit" name="form-submission" value="REGISTER PRODUCT">
+                </fieldset>
+            </form>
+
+
+
+        </div>
+
+    </body>
+</html>

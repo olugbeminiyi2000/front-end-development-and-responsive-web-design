@@ -1,0 +1,119 @@
+.logo{
+    position:relative;
+    top:10px;
+    left:620px;
+    right:620px;
+    width:100px;
+    height:100px
+    /*you cannot use top,left,right without position first indicated
+    and i couldn't use the text align because it was an image so i had to make a position
+    then use the properties left and right to get to place it at the center of the webapage in relaion
+    to the text dessert position, also use the width and heaight properties to reduce the image size.*/
+}
+.dessert{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 4.0em;/*this can be used to create different size of font from small
+    to big eventually affecting the size of the text there*/
+    font-family: "trebuchet ms", sans-serif;
+    /*and also the way text-align works when with position is different from it alone*/
+    text-shadow: 4px 1.5px 4px rgb(255,20,147);
+}
+.fdiv{
+    width: auto;
+    height: 210px;
+    background-color: rgb(255,255,213);
+}
+.design{
+    position: relative;
+    top: 25px;
+    width: 1100px;
+    height: 2px;
+    font-weight: bolder;
+    background-color: black;
+    border-color: red;
+}
+.display1{
+    position:relative;
+    top:30px;
+    width:49%;
+    height:1400px;
+    floatt:left;
+    background-color: rgb(255,255,213);
+}
+.display2{
+    position:relative;
+    top:30px;
+    width:49%;
+    height:1400px;
+    float: right;
+    background-color: #E3E4FA;
+}
+.display div{
+    display: inline-block;
+}
+.position h2,img{
+    display:inline-block
+}
+.desserts{
+    font-size: 2.5em;/*this can be used to create different size of font from small
+    to big eventually affecting the size of the text there*/
+    font-family: "Comic Sans MS", cursive;
+    width:50%;
+    color: rgb(255,105,180);
+    text-shadow: 4px 1.5px 4px rgb(128,128,128);
+}
+.Desserts{
+    width:60px;
+    height:60px;
+    float: right;
+    position:relative;
+    top: 30px;
+    /*position: relative;
+    right: -250px;
+top: 20px; this ia also good but not as efficient as the one above*/
+}
+.first p{
+    display: inline-block;
+}
+.paragraph1{
+    text-align: left;
+    width: 50%;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+.paragraph2{
+    text-align: right;
+    width: 49%;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.0em;
+    font-weight: lighter;
+    color: rgb(255,105,180);
+}
+.design1{
+    position: relative;
+    top: 45px;
+    width: 1100px;
+    height: 2px;
+    font-weight: bolder;
+    background-color: black;
+    border-color: red;
+
+}
+.foot{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-size: 2.0em;
+}
+.footcolor{
+    color: rgb(169,169,169);
+}
+.a-color{
+    color: rgb(153,255,255)
+}
+a:visited { color:black;}
+a:hover { color: brown;}
+a:active { color: red;}
